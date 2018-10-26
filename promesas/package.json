@@ -1,0 +1,19 @@
+{
+  "name": "promesas",
+  "version": "1.0.0",
+  "description": "carperta con práctica de promesas",
+  "main": "   ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "promises",
+    "callback",
+    "q"
+  ],
+  "author": "Héctor Javier Palacio",
+  "license": "ISC",
+  "dependencies": {
+    "q": "^1.5.1"
+  }
+}

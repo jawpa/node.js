@@ -1,0 +1,24 @@
+{
+  "name": "subir_archivos",
+  "version": "1.0.0",
+  "description": "app para subir archivos con node.js al servidor",
+  "main": "uploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node uploader.js",
+    "restart": "supervisor uploader.js"
+  },
+  "keywords": [
+    "subidor",
+    "archivo",
+    "node.js",
+    "formidable",
+    "fs-extra"
+  ],
+  "author": "h javier palacio",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "fs-extra": "^7.0.0"
+  }
+}
